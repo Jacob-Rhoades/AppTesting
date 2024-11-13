@@ -115,9 +115,7 @@ public class FuelCheckerWebStoryTest {
         wait.until(ExpectedConditions.titleIs("Fuel Checker"));
     }
 
-
     //Add your tests here
-
     @Test(timeOut=60000)
     public void test_T2() {
         wait.until(ExpectedConditions.titleIs("Fuel Checker"));
